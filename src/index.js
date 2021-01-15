@@ -1,10 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-// import { injectGlobal } from 'styled-components'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom'
+import './index.css';
+import GoodNFull from './components/GoodNFull';
 
-import App from './App'
 
 ReactDOM.render(
-  <App />,
+  <Router>
+    <GoodNFull />
+  </Router>,
   document.getElementById('root')
-)
+);
