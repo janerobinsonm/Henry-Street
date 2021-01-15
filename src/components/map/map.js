@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
-import { L, Map } from 'leaflet';
-// import {Map as LeafMap} from 'leaflet'
+import L from 'leaflet';
+import "../../App.css"
 import leafRed from "./leaf-red.png"
 import 'leaflet/dist/leaflet.css'
-import { TileLayer, Marker, Popup } from "react-leaflet"
+import { MapContainer as LeafMap, TileLayer, Marker, Popup } from "react-leaflet"
 
 
 
@@ -28,7 +28,7 @@ class LeafletMap extends Component {
     const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng];
   return (
     <div>
-      <Map center={positionRedIcon} zoom={this.state.zoom}>
+      <LeafMap className="map" center={positionRedIcon} zoom={this.state.zoom}>
         <TileLayer
           attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -40,7 +40,7 @@ class LeafletMap extends Component {
             </span>
           </Popup>
         </Marker>
-      </Map>
+      </LeafMap>
 
     </div>
   );

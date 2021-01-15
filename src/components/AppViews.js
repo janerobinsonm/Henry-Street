@@ -3,9 +3,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 import AppProvider from "./AppProvider";
 import SearchBar from "./SearchBar.js";
-import Map from "./map/map"
-import { MapConsumer } from "react-leaflet";
-import LeafletMap from "./map/map";
+import LeafletMap from "./map/Map";
 
 
 export default (props) => {
