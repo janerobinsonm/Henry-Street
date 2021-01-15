@@ -1,15 +1,11 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React from "react"
-
-import { ProductProvider } from "./grocery/product_api/ProductProvider"
-
+import React from "react";
+// import SearchBar from "./SearchBar.js";
 
 export default (props) => {
-    return (
-        <>
-                <ProductProvider>
-                            {props.children}
-                </ProductProvider>
-        </>
-    )
-}
+  return (
+    <>
+      {props.children}
+    </>
+  );
+};
