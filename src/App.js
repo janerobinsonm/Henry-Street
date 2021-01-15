@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import React, {Component} from 'react'
 import L from 'leaflet';
 import './App.css';
 import SearchPage from './components/SearchPage.js';
 import {Map, TileLayer, Marker, Popup} from react-leaflet
+=======
+import './App.css';
+
+>>>>>>> cc3835794157bcbeba983d66e1d3b85325c3ef11
 
 class App extends Component() {
   state = {
@@ -27,6 +32,7 @@ class App extends Component() {
     const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng];
   return (
     <div className="App">
+<<<<<<< HEAD
       <SearchPage />
       <Map center={position} zoom={this.state.zoom}>
         <TileLayer
@@ -41,6 +47,9 @@ class App extends Component() {
           </Popup>
         </Marker>
       </Map>
+=======
+
+>>>>>>> cc3835794157bcbeba983d66e1d3b85325c3ef11
     </div>
   );
 }
