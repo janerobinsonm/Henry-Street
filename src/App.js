@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
+import SearchPage from './components/SearchPage.js';
 
 function App() {
   return (
     <div className="App">
+      <SearchPage />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
