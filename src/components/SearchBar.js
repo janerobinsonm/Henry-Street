@@ -7,6 +7,8 @@ class SearchBar extends Component {
     products: null
   };
 
+  
+
   search = async val => {
     // const apiKey = "2ad4ade5aeee40faa49dccdee5364e48";
 
@@ -26,6 +28,7 @@ class SearchBar extends Component {
   };
 
   get renderProducts() {
+    
     let products = <h1>There's no products</h1>;
     if (this.state.products) {
       products = this.state.products.map(r => (

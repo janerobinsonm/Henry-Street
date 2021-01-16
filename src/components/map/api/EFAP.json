@@ -15,62 +15,6 @@
       "hours": "6-7PM/11AM-12PM"
     },
     {
-      "id": 84002,
-      "name": "CHURCH OF GOD, INC.",
-      "address": [
-        {
-          "street": "1011 WINTHROP STREET",
-          "city": "BROOKLYN",
-          "state": "NEW YORK",
-          "zipCode": "11212"
-        }
-      ],
-      "days": "SAT",
-      "hours": "2-3PM"
-    },
-    {
-      "id": 85293,
-      "name": "CHURCH OF PRAISE AND WORSHIP GOD IN CHRIST",
-      "address": [
-        {
-          "state": "NEW YORK",
-          "street": "526 RALPH AVENUE",
-          "city": "BROOKLYN",
-          "zipCode": "11233"
-        }
-      ],
-      "days": "SAT",
-      "hours": "12:30-2:30PM"
-    },
-    {
-      "id": 85351,
-      "name": "TY HARVEST - BED-STUY MOBILE MARKET",
-      "address": [
-        {
-          "street": "736 PARK AVENUE",
-          "city": "BROOKLYN",
-          "state": "NEW YORK",
-          "zipCode": "11206"
-        }
-      ],
-      "days": "WED(3),SAT(1)",
-      "hours": "9:30-11:30AM"
-    },
-    {
-      "id": 80236,
-      "name": " COMMUNITY HELP IN PARK SLOPE INC",
-      "address": [
-        {
-          "street": "200 4TH AVENUE",
-          "city": "BROOKLYN",
-          "state": "NEW YORK",
-          "zipCode": "11217"
-        }
-      ],
-      "days": "MON-SAT",
-      "hours": "12-1:30PM"
-    },
-    {
       "id": 84189,
       "name": "COMMUNITY SERVICES HOUSING DEVELOPMENT CORP.",
       "address": [
@@ -675,7 +619,6 @@
     {
       "id": 85387,
       "name": "NEW YORK COMMON PANTRY - BRONX",
-      "state": "NEW YORK",
       "address": [
         {
           "street": "1290 HOE AVENUE",
@@ -840,34 +783,6 @@
       ],
       "days": "TUE,W,THU,SAT",
       "hours": "9AM-1PM"
-    },
-    {
-      "id": 81249,
-      "name": "CONGREGATION B'NAI JESHURUN",
-      "address": [
-        {
-          "street": "257 WEST 88TH STREET",
-          "city": "NEW YORK",
-          "state": "NEW YORK",
-          "zipCode": "10024"
-        }
-      ],
-      "days": "THUR",
-      "hours": "12-1PM"
-    },
-    {
-      "id": 85332,
-      "name": "CHRIST CHURCH INTERNATIONAL JOSEPH'S HOUSE",
-      "address": [
-        {
-          "street": "122-20 MERRILL STREET",
-          "city": "QUEENS",
-          "state": "NEW YORK",
-          "zipCode": "11434"
-        }
-      ],
-      "days": "SAT (2,4)",
-      "hours": "10AM-12PM"
     },
     {
       "id": 85350,

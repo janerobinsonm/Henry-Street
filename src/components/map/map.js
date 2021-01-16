@@ -11,6 +11,8 @@ import {
   Marker,
   Popup,
 } from "react-leaflet";
+import GoogleMapReact from 'google-map-react';
+
 
 class LeafletMap extends Component {
   state = {
@@ -18,7 +20,9 @@ class LeafletMap extends Component {
       lat: 40.713,
       lng: -73.9,
     },
-    data: data,
+    data: data.locations.map((e) => {
+      return e.address
+    }),
     zoom: 13,
   };
   redIcon = L.icon({
@@ -29,31 +33,10 @@ class LeafletMap extends Component {
     shadowAnchor: [4, 62], // the same for the shadow
     popupAnchor: [-3, -86],
   });
-  
-  const listItems = this.state.data.locations.map(function (e) {
-    return e.address;
-  });
-  baseGeoCodeURL =
-    "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyCrVz7VKyTBvbx2ADJnyul1n69uxEK1KkI";
-  
-    getLatLon(address, appkey) {
-    if (address) {
-      return axios.get(baseGeoCodeURL + appkey + "&address=" + address);
-    }
-  };
+
   render() {
-
-
-
-    Geocode.fromAddress(listItems).then(
-      (response) => {
-        const { lat, lng } = response.results[0].geometry.location;
-        console.log(lat, lng);
-      },
-      (error) => {
-        console.error(error);
-      }
-    );
+    var listItem = [this.state.data].join(" ");
+    console.log(listItem);
 
     const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng];
 
@@ -68,9 +51,9 @@ class LeafletMap extends Component {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
         />
-        <Marker map={listItems} position={positionRedIcon} icon={this.redIcon}>
+        <Marker position={positionRedIcon} icon={this.redIcon}>
           <Popup>
-            <span>{listItems.address}</span>
+            <span>{this.listItem}</span>
           </Popup>
         </Marker>
         )
