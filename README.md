@@ -9,8 +9,8 @@
 
 ### Team 
 ## Developers 
-Aja Washington_
-Mollie Goforth_
+Aja Washington\
+Mollie Goforth
 
 ## Designer
 Tracey Joelle Cox
