@@ -8,8 +8,9 @@ import {
   Marker,
   Popup,
 } from "react-leaflet";
+import eafp_locations from "./api/EFAP.json"
 
-class LeafletMap extends Component {    
+class LeafletMap extends Component {
   state = {
     redIcon: {
       lat: 40.713,
@@ -26,29 +27,32 @@ class LeafletMap extends Component {
     popupAnchor: [-3, -86],
   });
 
-    geocode = fetch("./api/EFAP.json").then((response) => response.json()).then((responseData) => {
-        console.log(responseData.data);
-        const stations = responseData.data.stations;
-  
-        const layerGroup = L.featureGroup().addTo(map);
-  
-        stations.forEach(({ lat, lon, name, city, state, zip_code, hours, days }) => {
+  geocode = fetch("./api/EFAP.json")
+    .then((response) => response.json())
+    .then((responseData) => {
+      console.log(responseData.data);
+      const stations = responseData.data.stations;
+
+      const layerGroup = L.featureGroup().addTo(map);
+
+      stations.forEach(
+        ({ lat, lon, name, city, state, zip_code, hours, days }) => {
           const address = city + state + zip_code;
-          const operation = hours + days; 
-  
+          const operation = hours + days;
+
           layerGroup.addLayer(
             L.marker([lat, lon], { icon }).bindPopup(
               `Name: ${name}, Address: ${address}, Operation Hours:${operation}`
             )
           );
-        });
-  
-        map.fitBounds(layerGroup.getBounds());
-      })
+        }
+      );
+
+      map.fitBounds(layerGroup.getBounds());
+    });
 
   render() {
-
-    const location = [this.geocode.address]
+    const location = [this.geocode.address];
     const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng];
     return (
       <div>
@@ -63,7 +67,6 @@ class LeafletMap extends Component {
           />
           <Marker position={positionRedIcon} icon={this.redIcon}>
             <Popup>
-              
               <span>This is Henry Street Settlement</span>
             </Popup>
           </Marker>
