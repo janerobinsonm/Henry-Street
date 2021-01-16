@@ -8,7 +8,7 @@ class SearchBar extends Component {
   };
 
   search = async val => {
-    const apiKey = "2e35c181664d413b8b22bd5c33d98a65";
+    // const apiKey = "2ad4ade5aeee40faa49dccdee5364e48";
 
     this.setState({ loading: true });
     const res = await axios(

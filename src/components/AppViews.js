@@ -3,7 +3,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 import AppProvider from "./AppProvider";
 import SearchBar from "./SearchBar.js";
-import LeafletMap from "./map/Map";
+import LeafMap from "./map/Map";
 
 
 export default (props) => {
@@ -11,7 +11,7 @@ export default (props) => {
     <>
       <AppProvider>
       <Route exact path="/" render={props => <SearchBar {...props} />} />
-      <Route exact path="/" render={props => <LeafletMap {...props} />} />
+      <Route exact path="/" render={props => <LeafMap {...props} />} />
       </AppProvider>
     </>
   );
