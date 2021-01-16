@@ -24,5 +24,3 @@ https://www.figma.com/proto/LYjQqZy8GScPDKuNjGwtKp/Food-Distribution-App?node-id
 
 ### Powerpoint Presentation 
 https://onedrive.live.com/view.aspx?resid=2F30B056996114CC!469&ithint=file%2cpptx&authkey=!AIWKZHXiafbX8rI
-
-\
