@@ -55,7 +55,7 @@ class LeafletMap extends Component {
     const location = [this.geocode.address];
     const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng];
     return (
-      <div>
+      <div className="map">
         <LeafMap
           className="map"
           center={positionRedIcon}
