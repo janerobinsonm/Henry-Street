@@ -28,12 +28,14 @@ function SideNavbar() {
             </li>
             {NavBarData.map((item, index) => {
               return (
+                <div>
                 <li key={index} className={item.cName}>
                   <Link to={item.path}>
                     {item.icon}
                     <span>{item.title}</span>
                   </Link>
                 </li>
+                </div>
               );
             })}
           </ul>

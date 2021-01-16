@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import L from "leaflet";
 import "../../App.css";
-import axios from "axios";
 import data from "./api/EFAP.json";
-import Geocode from "react-geocode";
 import leafRed from "./leaf-red.png";
 import {
   MapContainer as LeafMap,
@@ -11,7 +9,6 @@ import {
   Marker,
   Popup,
 } from "react-leaflet";
-import GoogleMapReact from 'google-map-react';
 
 
 class LeafletMap extends Component {
@@ -20,10 +17,32 @@ class LeafletMap extends Component {
       lat: 40.713,
       lng: -73.9,
     },
-    data: data.locations.map((e) => {
-      return e.address
-    }),
-    zoom: 13,
+    marker1: {
+      lat: 40.665920,
+      lng: -73.886480,
+      name: "DIVINE INTERVENTION INSTITUTE INC"
+    },
+    marker2: {
+      lat: 40.669010,
+      lng: -73.919820,
+      name: "COMMUNITY SERVICES HOUSING DEVELOPMENT CORP"
+    },
+    marker3: {
+      lat: 40.575980,
+      lng: -73.988400,
+      name: "ACTS COMMUNITY DEVELOPMENT CORPORATION"
+    },
+    marker4: {
+      lat: 40.670000,
+      lng: -73.894330,
+      name: "COPO FOOD PANTR"
+    },
+    marker5: {
+      lat: 40.637320,
+      lng: -73.946690,
+      name: "EVANGELICAL CRUSADE FOOD PANTRY"
+    },
+    zoom: 12,
   };
   redIcon = L.icon({
     iconUrl: leafRed,
@@ -35,10 +54,14 @@ class LeafletMap extends Component {
   });
 
   render() {
-    var listItem = [this.state.data].join(" ");
-    console.log(listItem);
+   
 
     const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng];
+    const marker1 = [this.state.marker1.lat, this.state.marker1.lng];
+    const marker2 = [this.state.marker2.lat, this.state.marker2.lng];
+    const marker3 = [this.state.marker3.lat, this.state.marker3.lng];
+    const marker4 = [this.state.marker4.lat, this.state.marker4.lng];
+    const marker5 = [this.state.marker5.lat, this.state.marker5.lng];
 
     return (
       <div className="map">
@@ -53,7 +76,32 @@ class LeafletMap extends Component {
           />
           <Marker position={positionRedIcon} icon={this.redIcon}>
             <Popup>
-              <span>This is Henry Street Settlement</span>
+              <span>{this.state.marker1.name}</span>
+            </Popup>
+          </Marker>
+          <Marker position={marker1} icon={this.redIcon}>
+            <Popup>
+              <span>{this.state.marker1.name}</span>
+            </Popup>
+          </Marker>
+          <Marker position={marker2} icon={this.redIcon}>
+            <Popup>
+              <span>{this.state.marker2.name}</span>
+            </Popup>
+          </Marker>
+          <Marker position={marker3} icon={this.redIcon}>
+            <Popup>
+              <span>{this.state.marker3.name}</span>
+            </Popup>
+          </Marker>
+          <Marker position={marker4} icon={this.redIcon}>
+            <Popup>
+              <span>{this.state.marker4.name}</span>
+            </Popup>
+          </Marker>
+          <Marker position={marker5} icon={this.redIcon}>
+            <Popup>
+              <span>{this.state.marker5.name}</span>
             </Popup>
           </Marker>
         </LeafMap>
