@@ -7,7 +7,7 @@ import { MapContainer as LeafMap, TileLayer, Marker, Popup } from "react-leaflet
 
 
 
-class LeafletMap extends Component {
+class LeafletMap extends Component {    
   state = {
     redIcon:{
     lat: 40.713,
