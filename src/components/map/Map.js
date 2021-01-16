@@ -41,23 +41,23 @@ class LeafletMap extends Component {
     const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng];
 
     return (
-      <LeafMap
-        className="map"
-        center={positionRedIcon}
-        onClick={this.addMarker}
-        zoom={13}
-      >
-        <TileLayer
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
-        />
-        <Marker position={positionRedIcon} icon={this.redIcon}>
-          <Popup>
-            <span>{this.listItem}</span>
-          </Popup>
-        </Marker>
-        )
-      </LeafMap>
+      <div className="map">
+        <LeafMap
+          className="map"
+          center={positionRedIcon}
+          zoom={this.state.zoom}
+        >
+          <TileLayer
+            attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          <Marker position={positionRedIcon} icon={this.redIcon}>
+            <Popup>
+              <span>This is Henry Street Settlement</span>
+            </Popup>
+          </Marker>
+        </LeafMap>
+      </div>
     );
   }
 }
