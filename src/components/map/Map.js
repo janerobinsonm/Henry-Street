@@ -3,7 +3,6 @@ import L from "leaflet";
 import "../../App.css";
 import axios from "axios";
 import data from "./api/EFAP.json";
-import Geocode from "react-geocode";
 import leafRed from "./leaf-red.png";
 import {
   MapContainer as LeafMap,
@@ -11,8 +10,6 @@ import {
   Marker,
   Popup,
 } from "react-leaflet";
-import GoogleMapReact from 'google-map-react';
-
 
 class LeafletMap extends Component {
   state = {
@@ -20,9 +17,7 @@ class LeafletMap extends Component {
       lat: 40.713,
       lng: -73.9,
     },
-    data: data.locations.map((e) => {
-      return e.address
-    }),
+    data: data,
     zoom: 13,
   };
   redIcon = L.icon({
@@ -33,10 +28,9 @@ class LeafletMap extends Component {
     shadowAnchor: [4, 62], // the same for the shadow
     popupAnchor: [-3, -86],
   });
-
+  
+  
   render() {
-    var listItem = [this.state.data].join(" ");
-    console.log(listItem);
 
     const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng];
 
@@ -46,14 +40,16 @@ class LeafletMap extends Component {
           className="map"
           center={positionRedIcon}
           zoom={this.state.zoom}
+
         >
           <TileLayer
-            attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          <Marker position={positionRedIcon} icon={this.redIcon}>
+          <Marker position={positionRedIcon}>
             <Popup>
-              <span>This is Henry Street Settlement</span>
+            ACTS COMMUNITY DEVELOPMENT CORPORATION
+            2114 MERMAID AVE  BROOKLYN NEW YORK 11224
             </Popup>
           </Marker>
         </LeafMap>

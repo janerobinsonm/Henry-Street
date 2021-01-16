@@ -23,8 +23,8 @@ export const NavBarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Favorites',
-    path: '/team',
+    title: 'Food Banks',
+    path: '/locations',
     icon: <IoIcons.IoMdStarOutline />,
     cName: 'nav-text'
   },

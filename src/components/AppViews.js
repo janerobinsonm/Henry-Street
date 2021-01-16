@@ -5,6 +5,7 @@ import SearchBar from "./SearchBar.js";
 import LeafMap from "./map/Map";
 import SideNavBar from "./NavBar/SideNavBar";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
+import LocationList from "./locations/Location"
 
 export default (props) => {
   return (
@@ -13,11 +14,8 @@ export default (props) => {
         <Switch>
           <AppProvider>
             <SideNavBar />
-            <Route
-              exact
-              path="/"
-              render={(props) => <SearchBar {...props} />}
-            />
+            <Route exact path="/" render={(props) => <SearchBar {...props} />}/>
+            <Route exact path="/locations" render={props => <LocationList {...props} />} />
             <Route exact path="/" render={(props) => <LeafMap {...props} />} />
           </AppProvider>
         </Switch>

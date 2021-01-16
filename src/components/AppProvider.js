@@ -1,12 +1,10 @@
 import React from "react";
-// import { MapViewProvider } from "./map/MapViewProvider"
+import { LocationProvider } from "./locations/LocationProvider"
 
 export default (props) => {
   return (
     <>
-    {/* <MapViewProvider> */}
       {props.children}
-    {/* </MapViewProvider> */}
-    </>
+\    </>
   );
 };

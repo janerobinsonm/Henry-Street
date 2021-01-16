@@ -8,7 +8,6 @@ class SearchBar extends Component {
     products: null
   };
 
-  
 
   search = async val => {
     // const apiKey = "2ad4ade5aeee40faa49dccdee5364e48";

@@ -1,13 +1,12 @@
 .navbar {
     height: 80px;
-    display: flex;
-    justify-content: start;
+    display: flex-start;
     align-items: center;
     position: relative;
   }
   
   .menu-bars {
-    margin-right: 2rem;
+    margin: 40px;
     font-size: 2rem;
     background: none;
   }
@@ -31,8 +30,7 @@
   }
   
   .nav-text {
-    display: flex;
-    justify-content: start;
+    display: flex-start;
     align-items: center;
     list-style: none;
     height: 60px;
@@ -44,7 +42,7 @@
     font-size: 18px;
     width: 95%;
     height: 100%;
-    display: flex;
+    display: flex-start;
     align-items: center;
 
  
