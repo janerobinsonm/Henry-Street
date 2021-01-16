@@ -1,1071 +1,1250 @@
 {
-  "efap_locations": [
+  "locations": [
     {
       "id": 84948,
-      "program_name": "ACTS COMMUNITY DEVELOPMENT CORPORATION",
-      "phone_number": "(718) 415-1170",
-      "street_name": "2114 MERMAID AVE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11224",
+      "name": "ACTS COMMUNITY DEVELOPMENT CORPORATION",
+      "address": [
+        {
+          "street": "2114 MERMAID AVE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11224"
+        }
+      ],
       "days": "TUE/THUR",
       "hours": "6-7PM/11AM-12PM"
     },
     {
-      "id": 84002,
-      "program_name": "CHURCH OF GOD, INC.",
-      "phone_number": "(718) 493-3031",
-      "street_name": "1011 WINTHROP STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11212",
-      "days": "SAT",
-      "hours": "2-3PM"
-    },
-    {
-      "id": 85293,
-      "program_name": "CHURCH OF PRAISE AND WORSHIP GOD IN CHRIST",
-      "phone_number": "347-462-5679",
-      "street_name": "526 RALPH AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11233",
-      "days": "SAT",
-      "hours": "12:30-2:30PM"
-    },
-    {
-      "id": 85351,
-      "program_name": "TY HARVEST - BED-STUY MOBILE MARKET",
-      "phone_number": "646-412-0740",
-      "street_name": "736 PARK AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11206",
-      "days": "WED(3),SAT(1)",
-      "hours": "9:30-11:30AM"
-    },
-    {
-      "id": 80236,
-      "program_name": " COMMUNITY HELP IN PARK SLOPE INC",
-      "phone_number": "(718) 237-2962",
-      "street_name": "200 4TH AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11217",
-      "days": "MON-SAT",
-      "hours": "12-1:30PM"
-    },
-    {
       "id": 84189,
-      "program_name": "COMMUNITY SERVICES HOUSING DEVELOPMENT CORP.",
-      "phone_number": "646-794-5961",
-      "street_name": "547 HOWARD AVE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11233",
+      "name": "COMMUNITY SERVICES HOUSING DEVELOPMENT CORP.",
+      "address": [
+        {
+          "street": "547 HOWARD AVE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11233"
+        }
+      ],
       "days": "THUR",
       "hours": "10AM-12PM"
     },
     {
       "id": 82837,
-      "program_name": "COMPASSION HOUSE COMMUNITY DEVELOPMENT CORPORATION",
-      "phone_number": "(718) 386-8151",
-      "street_name": "43 GEORGE STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11206",
+      "name": "COMPASSION HOUSE COMMUNITY DEVELOPMENT CORPORATION",
+      "address": [
+        {
+          "street": "43 GEORGE STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11206"
+        }
+      ],
       "days": "TUE,THUR (1,3)",
       "hours": "9-11:30AM"
     },
     {
       "id": 85468,
-      "program_name": "COPO FOOD PANTR",
-      "phone_number": "718-434-3266",
-      "street_name": "1077 CONEY ISLAND AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11230",
+      "name": "COPO FOOD PANTR",
+      "address": [
+        {
+          "street": "1077 CONEY ISLAND AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11230"
+        }
+      ],
       "days": "FRI(1st RESPOND/S",
       "hours": "10:30A-12:30P/1:30-4:40P"
     },
     {
       "id": 82057,
-      "program_name": "CORNERSTONE SEVENTH DAY ADVENTIST CHURCH",
-      "phone_number": "(718) 483-9753",
-      "street_name": "138 PENNSYLVANIA AVE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11207",
+      "name": "CORNERSTONE SEVENTH DAY ADVENTIST CHURCH",
+      "address": [
+        {
+          "street": "138 PENNSYLVANIA AVE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11207"
+        }
+      ],
       "days": "THUR",
       "hours": "10AM-12PM"
     },
     {
       "id": 82058,
-      "program_name": " CORNERSTONE SEVENTH DAY ADVENTIST CHURCH",
-      "phone_number": "(718) 483-9753",
-      "street_name": "138 PENNSYLVANIA AVE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11207",
+      "name": " CORNERSTONE SEVENTH DAY ADVENTIST CHURCH",
+      "address": [
+        {
+          "street": "138 PENNSYLVANIA AVE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11207"
+        }
+      ],
       "days": "SUN",
       "hours": "11:30AM-1:30PM"
     },
     {
       "id": 80260,
-      "program_name": "ROWN HEIGHTS JEWISH COMMUNITY COUNCIL",
-      "phone_number": "718-771-9000",
-      "street_name": "899 MONTGOMERY STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11213",
+      "name": "ROWN HEIGHTS JEWISH COMMUNITY COUNCIL",
+      "address": [
+        {
+          "street": "899 MONTGOMERY STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11213"
+        }
+      ],
       "days": "WED",
       "hours": "1:30-3PM"
     },
     {
       "id": 85539,
-      "program_name": "DIVINE INTERVENTION INSTITUTE INC",
-      "phone_number": "516-655-6282",
-      "street_name": "2070 FLATBUSH AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11234",
+      "name": "DIVINE INTERVENTION INSTITUTE INC",
+      "address": [
+        {
+          "street": "2070 FLATBUSH AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11234"
+        }
+      ],
       "days": "MON-THUR",
       "hours": "11AM-3PM"
     },
     {
       "id": 84137,
-      "program_name": "EAST NEW YORK WESLEYAN CHURCH/NEW HOPE FAMILY WOR",
-      "phone_number": "718-342-1305",
-      "street_name": "817 LIVONIA AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11207",
+      "name": "EAST NEW YORK WESLEYAN CHURCH/NEW HOPE FAMILY WOR",
+      "address": [
+        {
+          "street": "817 LIVONIA AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11207"
+        }
+      ],
       "days": "SAT",
       "hours": "11AM - 2PM"
     },
     {
       "id": 80269,
-      "program_name": "EBENEZER SEVENTH DAY ADVENTIST CHURCH",
-      "phone_number": "(718) 778-7900",
-      "street_name": "1234 EAST NEW YORK AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11212",
+      "name": "EBENEZER SEVENTH DAY ADVENTIST CHURCH",
+      "address": [
+        {
+          "street": "1234 EAST NEW YORK AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11212"
+        }
+      ],
       "days": "WED",
       "hours": "10:30AM-12PM"
     },
     {
       "id": 85553,
-      "program_name": "ELIM RESTORATION CHURCH OF GOD",
-      "phone_number": "347-406-5878",
-      "street_name": "188 EAST 53RD STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11203",
+      "name": "ELIM RESTORATION CHURCH OF GOD",
+      "address": [
+        {
+          "street": "188 EAST 53RD STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11203"
+        }
+      ],
       "days": "TUE",
       "hours": "1-5PM"
     },
     {
       "id": 81479,
-      "program_name": "EMMAUS SDA CHURCH",
-      "phone_number": "718-287-2121",
-      "street_name": "1144 FLATBUSH AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11226",
+      "name": "EMMAUS SDA CHURCH",
+      "address": [
+        {
+          "street": "1144 FLATBUSH AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11226"
+        }
+      ],
       "days": "TUE",
       "hours": "12-3PM"
     },
     {
       "id": 85550,
-      "program_name": "EVANGELICAL CRUSADE FOOD PANTRY",
-      "phone_number": "718-484-8684",
-      "street_name": "557 EAST 31ST STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11210",
+      "name": "EVANGELICAL CRUSADE FOOD PANTRY",
+      "address": [
+        {
+          "street": "557 EAST 31ST STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11210"
+        }
+      ],
       "days": "TUE,THUR",
       "hours": "4-6PM"
     },
     {
       "id": 81431,
-      "program_name": "FAITH CENTER FOR HUMAN SERVICES, INC",
-      "phone_number": "646-431-9729",
-      "street_name": "1014-18 GATES AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11221",
+      "name": "FAITH CENTER FOR HUMAN SERVICES, INC",
+      "address": [
+        {
+          "street": "1014-18 GATES AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11221"
+        }
+      ],
       "days": "SAT",
       "hours": "9:30AM-12PM"
     },
     {
       "id": 83445,
-      "program_name": "FAITH CENTER FOR HUMAN SERVICES, INC",
-      "phone_number": "646-431-9729",
-      "street_name": "1014-18 GATES AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11221",
+      "name": "FAITH CENTER FOR HUMAN SERVICES, INC",
+      "address": [
+        {
+          "street": "1014-18 GATES AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11221"
+        }
+      ],
       "days": "SAT",
       "hours": "9:30AM-12PM"
     },
     {
       "id": 83616,
-      "program_name": "FAMILY LIFE DEVELOPMENT CENTER",
-      "phone_number": "(718) 636-4938",
-      "street_name": "1476 BEDFORD AVE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11216",
+      "name": "FAMILY LIFE DEVELOPMENT CENTER",
+      "address": [
+        {
+          "street": "1476 BEDFORD AVE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11216"
+        }
+      ],
       "days": "MON",
       "hours": "4-6PM"
     },
     {
       "id": 81578,
-      "program_name": "FAMILY SERVICE NETWORK OF N.Y. INC",
-      "phone_number": "718-455-6010",
-      "street_name": "1420 BUSHWICK AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11207",
+      "name": "FAMILY SERVICE NETWORK OF N.Y. INC",
+      "address": [
+        {
+          "street": "1420 BUSHWICK AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11207"
+        }
+      ],
       "days": "MON,WED",
       "hours": "9AM-1PM"
     },
     {
       "id": 83444,
-      "program_name": "FERNANDE VALME' MINISTRIES INC",
-      "phone_number": "(718) 284-1809",
-      "street_name": "1120 FLATBUSH AVE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11226",
+      "name": "FERNANDE VALME' MINISTRIES INC",
+      "address": [
+        {
+          "street": "1120 FLATBUSH AVE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11226"
+        }
+      ],
       "days": "THUR",
       "hours": "10-11AM"
     },
     {
       "id": 82347,
-      "program_name": "FLATBUSH SDA CHURCH",
-      "phone_number": "718-693-9180",
-      "street_name": "261 EAST 21ST STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11226",
+      "name": "FLATBUSH SDA CHURCH",
+      "address": [
+        {
+          "street": "261 EAST 21ST STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11226"
+        }
+      ],
       "days": "MON",
       "hours": "11AM-1PM"
     },
     {
       "id": 82188,
-      "program_name": "FOOD FIRST, INC",
-      "phone_number": "(718) 624-1950",
-      "street_name": "165 CONOVER STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11231",
+      "name": "FOOD FIRST, INC",
+      "address": [
+        {
+          "street": "165 CONOVER STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11231"
+        }
+      ],
       "days": "SAT",
       "hours": "9-11:30AM"
     },
     {
       "id": 84151,
-      "program_name": "GETHSEMANE SDA CHURCH",
-      "phone_number": "718-467-4181",
-      "street_name": "357 EMPIRE BLVD",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11225",
+      "name": "GETHSEMANE SDA CHURCH",
+      "address": [
+        {
+          "street": "357 EMPIRE BLVD",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11225"
+        }
+      ],
       "days": "SUN/WED",
       "hours": "12-1PM/5-6PM"
     },
     {
       "id": 83907,
-      "program_name": "GLOVER MEMORIAL BREAD OF LIFE FOOD PANTRY",
-      "phone_number": "347-432-3065",
-      "street_name": "2134 DEAN STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11233",
+      "name": "GLOVER MEMORIAL BREAD OF LIFE FOOD PANTRY",
+      "address": [
+        {
+          "street": "2134 DEAN STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11233"
+        }
+      ],
       "days": "THUR",
       "hours": "9-11AM"
     },
     {
       "id": 80284,
-      "program_name": "GOD'S BATTALION OF PRAYER CHURCH",
-      "phone_number": "(718) 774-5447",
-      "street_name": "661 LINDEN BOULEVARD",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11203",
+      "name": "GOD'S BATTALION OF PRAYER CHURCH",
+      "address": [
+        { 
+          "street": "661 LINDEN BOULEVARD",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11203"
+        }
+      ],
       "days": "TUE,WED,THUR",
       "hours": "9AM-12PM"
     },
     {
       "id": 83282,
-      "program_name": "GOD'S DELIVERANCE TEMPLE, INC",
-      "phone_number": "347-234-3828",
-      "street_name": "438 RALPH AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11233",
+      "name": "GOD'S DELIVERANCE TEMPLE, INC",
+      "address": [
+        {
+          "street": "438 RALPH AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11233"
+        }
+      ],
       "days": "TUE(1,3)",
       "hours": "11AM-12PM"
     },
     {
       "id": 84738,
-      "program_name": "GOOD NEWS DELIVERANCE TABERNACLE",
-      "phone_number": "(718) 235-0065",
-      "street_name": "442 CLEVELAND STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11208",
+      "name": "GOOD NEWS DELIVERANCE TABERNACLE",
+      "address": [
+        {
+          "street": "442 CLEVELAND STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11208"
+        }
+      ],
       "days": "SAT",
       "hours": "11AM-1PM"
     },
     {
       "id": 85083,
-      "program_name": "GREENPOINT REFORMED CHURCH FOOD PANTRY",
-      "phone_number": "718-383-5941",
-      "street_name": "136 MILTON STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11222",
+      "name": "GREENPOINT REFORMED CHURCH FOOD PANTRY",
+      "address": [
+        {
+          "street": "136 MILTON STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11222"
+        }
+      ],
       "days": "THUR",
       "hours": "4-7PM"
     },
     {
       "id": 80289,
-      "program_name": "HANSON PLACE SEVENTH DAY ADVENTIST CHURCH",
-      "phone_number": "(718) 399-7513",
-      "street_name": "150 SOUTH PORTLAND AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11217",
+      "name": "HANSON PLACE SEVENTH DAY ADVENTIST CHURCH",
+      "address": [
+        {
+          "street": "150 SOUTH PORTLAND AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11217"
+        }
+      ],
       "days": "THUR",
       "hours": "2-5PM"
     },
     {
       "id": 85477,
-      "program_name": "HEALTH ESSENTIAL ASSOCIATION CPMM",
-      "phone_number": "646-515-6898",
-      "street_name": "2336 86TH STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11214",
+      "name": "HEALTH ESSENTIAL ASSOCIATION CPMM",
+      "address": [
+        {
+          "street": "2336 86TH STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11214"
+        }
+      ],
       "days": "THUR (1,3)",
       "hours": "10AM-12PM"
     },
     {
       "id": 85315,
-      "program_name": "HEALTH ESSENTIAL ASSOCIATION INC",
-      "phone_number": "646-515-6898",
-      "street_name": "2101 EAST 16TH STREET - 2ND FLOOR",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11229",
+      "name": "HEALTH ESSENTIAL ASSOCIATION INC",
+      "address": [
+        {
+          "street": "2101 EAST 16TH STREET - 2ND FLOOR",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11229"
+        }
+      ],
       "days": "FRI",
       "hours": "10AM-12PM"
     },
     {
       "id": 85512,
-      "program_name": "HEBREW EDUCATIONAL SOCIETY",
-      "phone_number": "718-241-3000",
-      "street_name": "9502 SEAVIEW AVENUE",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11236",
+      "name": "HEBREW EDUCATIONAL SOCIETY",
+      "address": [
+        {
+          "street": "9502 SEAVIEW AVENUE",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11236"
+        }
+      ],
       "days": "MON-THUR",
       "hours": "9AM-2PM"
     },
     {
       "id": 80291,
-      "program_name": "HEBRON SDA CHURCH",
-      "phone_number": "(718) 778-6454",
-      "street_name": "1256 DEAN STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11216",
+      "name": "HEBRON SDA CHURCH",
+      "address": [
+        {
+          "street": "1256 DEAN STREET",
+          "city": "BROOKLYN",
+          "state": "NEW YORK",
+          "zipCode": "11216"
+        }
+      ],
       "days": "WED(1,3)",
       "hours": "9-10:30AM"
     },
     {
-      "id": 83503,
-      "program_name": "UR LADY OF GRACE PARISH MINISTRY",
-      "phone_number": "718-645-2120",
-      "street_name": "2322 EAST 4TH STREET",
-      "city": "BROOKLYN",
-      "state": "NEW YORK",
-      "zip_code": "11223",
-      "days": "WED/FRI",
-      "hours": "12-12:30PM/9-11:30AM"
-    },
-    {
       "id": 80086,
-      "program_name": "EWISH COMMUNITY COUNCIL OF PELHAM PARKWAY",
-      "phone_number": "(718) 792-4744",
-      "street_name": "2157 HOLLAND AVE",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10462",
+      "name": "EWISH COMMUNITY COUNCIL OF PELHAM PARKWAY",
+      "address": [
+        {
+          "street": "2157 HOLLAND AVE",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10462"
+        }
+      ],
       "days": "TUE,WED,THUR",
       "hours": "12-4PM"
     },
     {
       "id": 83383,
-      "program_name": "LOS REDIMIDOS EN LA SANGRE DE CRISTO",
-      "phone_number": "646-408-3909",
-      "street_name": "609 EAST 182ND STREET",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10457",
+      "name": "LOS REDIMIDOS EN LA SANGRE DE CRISTO",
+      "address": [
+        {
+          "street": "609 EAST 182ND STREET",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10457"
+        }
+      ],
       "days": "WED",
       "hours": "8-10AM"
     },
     {
       "id": 84177,
-      "program_name": "ANNA OF LIFE MINISTRIES, INC",
-      "phone_number": "347-577-5788",
-      "street_name": "1101 BOSTON ROAD",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10456",
+      "name": "ANNA OF LIFE MINISTRIES, INC",
+      "address": [
+        {
+          "street": "1101 BOSTON ROAD",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10456"
+        }
+      ],
       "days": "SAT",
       "hours": "11AM-1PM"
     },
     {
       "id": 84319,
-      "program_name": "MANNA OF LIFE MINISTRIES, INC",
-      "phone_number": "347-577-5788",
-      "street_name": "1101 BOSTON ROAD",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10456",
+      "name": "MANNA OF LIFE MINISTRIES, INC",
+      "address": [
+        {
+          "street": "1101 BOSTON ROAD",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10456"
+        }
+      ],
       "days": "TUE,THU,SAT",
       "hours": "11AM-1PM"
     },
     {
       "id": 85423,
-      "program_name": "BILE FOOD PANTRY",
-      "phone_number": "646-385-0748",
-      "street_name": "309 DRAKE STREET",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10474",
+      "name": "BILE FOOD PANTRY",
+      "address": [
+        {
+          "street": "309 DRAKE STREET",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10474"
+        }
+      ],
       "days": "TUE-FRI",
       "hours": "10AM -12PM"
     },
     {
       "id": 84086,
-      "program_name": "OMENTUM PROJECT @ CHURCH OF THE GOD OF PROPHECY",
-      "phone_number": "718-292-7718",
-      "street_name": "85 EAST 165TH STREET",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10452",
+      "name": "OMENTUM PROJECT @ CHURCH OF THE GOD OF PROPHECY",
+      "address": [
+        {
+          "street": "85 EAST 165TH STREET",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10452"
+        }
+      ],
       "days": "WED",
       "hours": "11AM-1PM&4-6:30PM"
     },
     {
       "id": 85312,
-      "program_name": "MOMENTUM PROJECT HRC - HARM REDUCTION CENTER",
-      "phone_number": "718-292-7718",
-      "street_name": "226 EAST 144TH STREET",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10451",
+      "name": "MOMENTUM PROJECT HRC - HARM REDUCTION CENTER",
+      "address": [
+        {
+          "street": "226 EAST 144TH STREET",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10451"
+        }
+      ],
       "days": "FRI",
       "hours": "12-2PM"
     },
     {
       "id": 84953,
-      "program_name": "MORRISANIA REVITALIZATION CORP INC",
-      "phone_number": "718-589-7858",
-      "street_name": "576 EAST 165TH STREET",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10456",
+      "name": "MORRISANIA REVITALIZATION CORP INC",
+      "address": [
+        {
+          "street": "576 EAST 165TH STREET",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10456"
+        }
+      ],
       "days": "FRI",
       "hours": "10AM-12PM"
     },
     {
       "id": 87090,
-      "program_name": "MOSAIC BEACON COMMUNITY CENTER",
-      "phone_number": "917-962-9955",
-      "street_name": "1257 OGDEN AVENUE",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10452",
+      "name": "MOSAIC BEACON COMMUNITY CENTER",
+      "address": [
+        {
+          "street": "1257 OGDEN AVENUE",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10452"
+        }
+      ],
       "days": "TUE,WED,THUR",
       "hours": "3-5PM"
     },
     {
       "id": 85499,
-      "program_name": "MOSHOLU MONTEFIORE COMMUNITY CENTER",
-      "phone_number": "718-882-4000",
-      "street_name": "3450 DEKALB AVENUE",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10467",
+      "name": "MOSHOLU MONTEFIORE COMMUNITY CENTER",
+      "address": [
+        {
+          "street": "3450 DEKALB AVENUE",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10467"
+        }
+      ],
       "days": "MON-FRI",
       "hours": "9AM-5PM"
     },
     {
       "id": 83678,
-      "program_name": "MOUNT PISGAH BAPTIST CHURCH",
-      "phone_number": "914-882-7383",
-      "street_name": "709 EAST 228TH STREET",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10466",
+      "name": "MOUNT PISGAH BAPTIST CHURCH",
+      "address": [
+        {
+          "street": "709 EAST 228TH STREET",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10466"
+        }
+      ],
       "days": "SAT(2,3)",
       "hours": "11AM-1PM"
     },
     {
       "id": 84268,
-      "program_name": "NEW CONVENANT COMMUNITY DEVELOPMENT CORP",
-      "phone_number": "718-328-6072",
-      "street_name": "1175 BOSTON ROAD",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10456",
+      "name": "NEW CONVENANT COMMUNITY DEVELOPMENT CORP",
+      "address": [
+        {
+          "street": "1175 BOSTON ROAD",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10456"
+        }
+      ],
       "days": "TUE/WED/THUR",
       "hours": "2-4P/12-2P/10A-1P"
     },
     {
       "id": 80179,
-      "program_name": "NEW ST. JOHN BAPTIST CHURCH",
-      "phone_number": "917-400-4830",
-      "street_name": "2409 LORILLARD PLACE",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10458",
+      "name": "NEW ST. JOHN BAPTIST CHURCH",
+      "address": [
+        {
+          "street": "2409 LORILLARD PLACE",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10458"
+        }
+      ],
       "days": "FRI",
       "hours": "8-10AM"
     },
     {
       "id": 85387,
-      "program_name": "NEW YORK COMMON PANTRY - BRONX",
-      "phone_number": "917-423-2701",
-      "street_name": "1290 HOE AVENUE",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10459",
+      "name": "NEW YORK COMMON PANTRY - BRONX",
+      "address": [
+        {
+          "street": "1290 HOE AVENUE",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10459"
+        }
+      ],
       "days": "THUR-SAT",
       "hours": "10AM-2:30PM"
     },
     {
       "id": 83550,
-      "program_name": "PART OF THE SOLUTION",
-      "phone_number": "(718) 220-4892",
-      "street_name": "2759 WEBSTER AVENUE",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10458",
+      "name": "PART OF THE SOLUTION",
+      "address": [
+        {
+          "street": "2759 WEBSTER AVENUE",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10458"
+        }
+      ],
       "days": "MON-SAT",
       "hours": "8-11:30AM"
     },
     {
       "id": 84129,
-      "program_name": "VINEYARD INTERNATIONAL CHRISTIAN MINISTRIES",
-      "phone_number": "718-538-9211",
-      "street_name": "1140 TELLER AVE",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10456",
+      "name": "VINEYARD INTERNATIONAL CHRISTIAN MINISTRIES",
+      "address": [
+        {
+          "street": "1140 TELLER AVE",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10456"
+        }
+      ],
       "days": "SAT",
       "hours": "10AM-12PM"
     },
     {
       "id": 81582,
-      "program_name": "WAY OUT CHURCH MINISTRIES, INC",
-      "phone_number": "718-665-8069",
-      "street_name": "520 EAST 148TH STREET",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10455",
+      "name": "WAY OUT CHURCH MINISTRIES, INC",
+      "address": [
+        {
+          "street": "520 EAST 148TH STREET",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10455"
+        }
+      ],
       "days": "TUE,THUR",
       "hours": "8-10AM"
     },
     {
       "id": 84438,
-      "program_name": "WHEDCO - FOOD PANTRY",
-      "phone_number": "718-839-1100",
-      "street_name": "50 EAST 168TH STREET",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10452",
+      "name": "WHEDCO - FOOD PANTRY",
+      "address": [
+        {
+          "street": "50 EAST 168TH STREET",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10452"
+        }
+      ],
       "days": "WED",
       "hours": "9:30-10:30AM"
     },
     {
       "id": 85113,
-      "program_name": "WHOSOEVER WILL BAPTIST CHURCH",
-      "phone_number": "347-528-0013",
-      "street_name": "1651 POPHAM AVENUE",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10453",
+      "name": "WHOSOEVER WILL BAPTIST CHURCH",
+      "address": [
+        {
+          "street": "1651 POPHAM AVENUE",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10453"
+        }
+      ],
       "days": "SAT",
       "hours": "9-11AM"
     },
     {
       "id": 85011,
-      "program_name": "WOODYCREST UNITED METHODIST CHURCH",
-      "phone_number": "718-538-7500",
-      "street_name": "89 WEST 166TH STREET",
-      "city": "BRONX",
-      "state": "NEW YORK",
-      "zip_code": "10452",
+      "name": "WOODYCREST UNITED METHODIST CHURCH",
+      "address": [
+        {
+          "street": "89 WEST 166TH STREET",
+          "city": "BRONX",
+          "state": "NEW YORK",
+          "zipCode": "10452"
+        }
+      ],
       "days": "WED",
       "hours": "12-2PM"
     },
     {
       "id": 85357,
-      "program_name": "TY HARVEST MOBILE MARKET - DYCKMAN HOUSES",
-      "phone_number": "646-412-0740",
-      "street_name": "177 NAGLE AVENUE",
-      "city": "NEW YORK",
-      "state": "NEW YORK",
-      "zip_code": "10034",
+      "name": "TY HARVEST MOBILE MARKET - DYCKMAN HOUSES",
+      "address": [
+        {
+          "street": "177 NAGLE AVENUE",
+          "city": "NEW YORK",
+          "state": "NEW YORK",
+          "zipCode": "10034"
+        }
+      ],
       "days": "WED(2),SAT(4)",
       "hours": "9:30-11:30AM"
     },
     {
       "id": 85358,
-      "program_name": "TY HARVEST MOBILE MARKET - PRINCE HALL",
-      "phone_number": "646-412-0740",
-      "street_name": "454 WEST 155TH STREET",
-      "city": "NEW YORK",
-      "state": "NEW YORK",
-      "zip_code": "10032",
+      "name": "TY HARVEST MOBILE MARKET - PRINCE HALL",
+      "address": [
+        {
+          "street": "454 WEST 155TH STREET",
+          "city": "NEW YORK",
+          "state": "NEW YORK",
+          "zipCode": "10032"
+        }
+      ],
       "days": "THU(2),SAT(4)",
       "hours": "9:30-11:30AM"
     },
     {
       "id": 81451,
-      "program_name": "OALITION FOR THE HOMELESS",
-      "phone_number": "212-776-2002",
-      "street_name": "108 EAST 51ST STREET",
-      "city": "NEW YORK",
-      "state": "NEW YORK",
-      "zip_code": "10022",
+      "name": "OALITION FOR THE HOMELESS",
+      "address": [
+        {
+          "street": "108 EAST 51ST STREET",
+          "city": "NEW YORK",
+          "state": "NEW YORK",
+          "zipCode": "10022"
+        }
+      ],
       "days": "MON-FRI",
       "hours": "6:30-10PM"
     },
     {
       "id": 80543,
-      "program_name": "COMMUNITY IMPACT",
-      "phone_number": "212-854-6310",
-      "street_name": "616 WEST 114TH STREET",
-      "city": "NEW YORK",
-      "state": "NEW YORK",
-      "zip_code": "10025",
+      "name": "COMMUNITY IMPACT",
+      "address": [
+        {
+          "street": "616 WEST 114TH STREET",
+          "city": "NEW YORK",
+          "state": "NEW YORK",
+          "zipCode": "10025"
+        }
+      ],
       "days": "MON,WED,THUR",
       "hours": "11AM-2PM"
     },
     {
       "id": 81071,
-      "program_name": "COMMUNITY LEAGUE OF THE HEIGHTS",
-      "phone_number": "212-795-4779",
-      "street_name": "508 WEST 159TH STREET",
-      "city": "NEW YORK",
-      "state": "NEW YORK",
-      "zip_code": "10032",
+      "name": "COMMUNITY LEAGUE OF THE HEIGHTS",
+      "address": [
+        {
+          "street": "508 WEST 159TH STREET",
+          "city": "NEW YORK",
+          "state": "NEW YORK",
+          "zipCode": "10032"
+        }
+      ],
       "days": "TUE,W,THU,SAT",
       "hours": "9AM-1PM"
     },
     {
-      "id": 81249,
-      "program_name": "CONGREGATION B'NAI JESHURUN",
-      "phone_number": "(212) 787-7600",
-      "street_name": "257 WEST 88TH STREET",
-      "city": "NEW YORK",
-      "state": "NEW YORK",
-      "zip_code": "10024",
-      "days": "THUR",
-      "hours": "12-1PM"
-    },
-    {
-      "id": 85332,
-      "program_name": "CHRIST CHURCH INTERNATIONAL JOSEPH'S HOUSE",
-      "phone_number": "718-276-2799",
-      "street_name": "122-20 MERRILL STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11434",
-      "days": "SAT (2,4)",
-      "hours": "10AM-12PM"
-    },
-    {
       "id": 85350,
-      "program_name": "TY HARVEST - ASTORIA MOBILE MARKET",
-      "phone_number": "646-412-0740",
-      "street_name": "7-1 ASTORIA BLVD",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11102",
+      "name": "TY HARVEST - ASTORIA MOBILE MARKET",
+      "address": [
+        {
+          "street": "7-1 ASTORIA BLVD",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11102"
+        }
+      ],
       "days": "THUR(3),SAT(1)",
       "hours": "9:30-11:30AM"
     },
     {
       "id": 85354,
-      "program_name": "TY HARVEST MOBILE MARKET - QUEENSBRIDGE HOUSES",
-      "phone_number": "646-412-0740",
-      "street_name": "10-25 41ST AVENUE",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11101",
+      "name": "TY HARVEST MOBILE MARKET - QUEENSBRIDGE HOUSES",
+      "address": [
+        {
+          "street": "10-25 41ST AVENUE",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11101"
+        }
+      ],
       "days": "TUE(2),SAT(4)",
       "hours": "9:30-11:30AM"
     },
     {
       "id": 85313,
-      "program_name": "COMMUNITY ALLIANCE INITIATIVE",
-      "phone_number": " 718-305-4888",
-      "street_name": "60-85 MYRTLE AVENUE",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11385",
+      "name": "COMMUNITY ALLIANCE INITIATIVE",
+      "address": [
+        {
+          "street": "60-85 MYRTLE AVENUE",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11385"
+        }
+      ],
       "days": "WED",
       "hours": "10AM -12PM"
     },
     {
       "id": 80888,
-      "program_name": "CORONA S.D.A. CHURCH",
-      "phone_number": "(718) 429-7050",
-      "street_name": "35-30 103RD STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11368",
+      "name": "CORONA S.D.A. CHURCH",
+      "address": [
+        {
+          "street": "35-30 103RD STREET",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11368"
+        }
+      ],
       "days": "MON",
       "hours": "9-11AM"
     },
     {
       "id": 80889,
-      "program_name": "CORONA S.D.A. CHURCH",
-      "phone_number": "718-651-4534",
-      "street_name": "35-30 103RD STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11368",
+      "name": "CORONA S.D.A. CHURCH",
+      "address": [
+        {
+          "street": "35-30 103RD STREET",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11368"
+        }
+      ],
       "days": "SUN",
       "hours": "12-2PM"
     },
     {
       "id": 80891,
-      "program_name": "CORPUS CHRISTI FOOD PANTRY",
-      "phone_number": "(718) 278-8114",
-      "street_name": "31-30 61ST STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11377",
+      "name": "CORPUS CHRISTI FOOD PANTRY",
+      "address": [
+        {
+          "street": "31-30 61ST STREET",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11377"
+        }
+      ],
       "days": "WED",
       "hours": "11AM-1PM"
     },
     {
       "id": 83409,
-      "program_name": "CROSSOVER BAPTIST CHURCH COMMUNITY OUTREACH HELP CENTER",
-      "phone_number": " 718-322-1200",
-      "street_name": "85-12 101ST AVENUE",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11416",
+      "name": "CROSSOVER BAPTIST CHURCH COMMUNITY OUTREACH HELP CENTER",
+      "address": [
+        {
+          "street": "85-12 101ST AVENUE",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11416"
+        }
+      ],
       "days": "FRI(2,4)/THUR",
       "hours": "10AM-2PM/HB DELIVERI"
     },
     {
       "id": 83351,
-      "program_name": "DELIVERANCE TEMPLE CHURCH OF JESUS CHRIST",
-      "phone_number": "(718) 529-1993",
-      "street_name": "134-10 ROCKAWAY BLVD SO. OZONE PARK",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11420",
+      "name": "DELIVERANCE TEMPLE CHURCH OF JESUS CHRIST",
+      "address": [
+        {
+          "street": "134-10 ROCKAWAY BLVD SO. OZONE PARK",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11420"
+        }
+      ],
       "days": "TUE",
       "hours": "5:30-6:30PM"
     },
     {
       "id": 85444,
-      "program_name": "DIVINE FOOD PANTRY",
-      "phone_number": "516-415-1192",
-      "street_name": "215-31 99TH AVENUE (QUEEN VILLAGE)",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11429",
+      "name": "DIVINE FOOD PANTRY",
+      "address": [
+        {
+          "street": "215-31 99TH AVENUE (QUEEN VILLAGE)",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11429"
+        }
+      ],
       "days": "FRI",
       "hours": "6-8PM"
     },
     {
       "id": 80893,
-      "program_name": "ELMCOR YOUTH & ADULT ACTIVITIES #2",
-      "phone_number": "(718) 651-0096",
-      "street_name": "33-16 108TH STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11368",
+      "name": "ELMCOR YOUTH & ADULT ACTIVITIES #2",
+      "address": [
+        {
+          "street": "33-16 108TH STREET",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11368"
+        }
+      ],
       "days": "WED, FRI",
       "hours": "12-4PM"
     },
     {
       "id": 83879,
-      "program_name": "ELOHIM COMMUNITY DEVELOPMENT & OUTREACH INC",
-      "phone_number": "(917) 418-7906",
-      "street_name": "87-47 111TH STREET, RICHMOND HILLS",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11418",
+      "name": "ELOHIM COMMUNITY DEVELOPMENT & OUTREACH INC",
+      "address": [
+        {
+          "street": "87-47 111TH STREET, RICHMOND HILLS",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11418"
+        }
+      ],
       "days": "FRI",
       "hours": "7AM-12PM"
     },
     {
       "id": 81741,
-      "program_name": "STHER GRUNBLATT-CENTRAL QUEENS Y",
-      "phone_number": "718-704-8160",
-      "street_name": "67-09 108TH STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11375",
+      "name": "STHER GRUNBLATT-CENTRAL QUEENS Y",
+      "address": [
+        {
+          "street": "67-09 108TH STREET",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11375"
+        }
+      ],
       "days": "MON-FRI",
       "hours": "10AM-1:30PM"
     },
     {
       "id": 85483,
-      "program_name": "EVANGEL FOOD PANTRY",
-      "phone_number": "718-361-5454",
-      "street_name": "39-21 CRESENT STREET (LIC)",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11101",
+      "name": "EVANGEL FOOD PANTRY",
+      "address": [
+        {
+          "street": "39-21 CRESENT STREET (LIC)",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11101"
+        }
+      ],
       "days": "M-F/SAT",
       "hours": "9AM-4PM/9AM-12PM"
     },
     {
       "id": 84315,
-      "program_name": "EVANGELICAL CHURCH CHRIST IS THE LIGHT",
-      "phone_number": "718-592-2701",
-      "street_name": "89-16 48TH AVENUE (ELMHURST)",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11373",
+      "name": "EVANGELICAL CHURCH CHRIST IS THE LIGHT",
+      "address": [
+        {
+          "street": "89-16 48TH AVENUE (ELMHURST)",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11373"
+        }
+      ],
       "days": "FRI",
       "hours": "9-11AM"
     },
     {
       "id": 83623,
-      "program_name": " FIRST BAPTIST CHURCH",
-      "phone_number": "(718) 446-0200",
-      "street_name": "100-10 ASTORIA BLVD., E. ELMHURST",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11369",
+      "name": " FIRST BAPTIST CHURCH",
+      "address": [
+        {
+          "street": "100-10 ASTORIA BLVD., E. ELMHURST",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11369"
+        }
+      ],
       "days": "WED",
       "hours": "12-1:45PM"
     },
     {
       "id": 81110,
-      "program_name": "FIRST CHURCH OF GOD IN CHRIST, INC.",
-      "phone_number": "(718) 712-4831",
-      "street_name": "187-10 BAISLEY BLVD",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11412",
+      "name": "FIRST CHURCH OF GOD IN CHRIST, INC.",
+      "address": [
+        {
+          "street": "187-10 BAISLEY BLVD",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11412"
+        }
+      ],
       "days": "WED,THUR",
       "hours": "12:30-3PM"
     },
     {
       "id": 81453,
-      "program_name": "FIRST PRESBYTERIAN CHURCH OF JAMAICA",
-      "phone_number": "(718) 526-4775",
-      "street_name": "89-60 164TH STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11432",
+      "name": "FIRST PRESBYTERIAN CHURCH OF JAMAICA",
+      "address": [
+        {
+          "street": "89-60 164TH STREET",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11432"
+        }
+      ],
       "days": "TUE/4TH SAT",
       "hours": "10AM-12PM/9-11AM"
     },
     {
       "id": 81450,
-      "program_name": " FIRST PRESBYTERIAN CHURCH OF JAMAICA",
-      "phone_number": "718) 526-4775",
-      "street_name": "89-60 164TH STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11432",
+      "name": " FIRST PRESBYTERIAN CHURCH OF JAMAICA",
+      "address": [
+        {
+          "street": "89-60 164TH STREET",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11432"
+        }
+      ],
       "days": "WED",
       "hours": "5:30-6:30PM"
     },
     {
       "id": 84182,
-      "program_name": "FIRST PRESBYTERIAN RUSSELL SAGE MEMORIAL CHURCH",
-      "phone_number": "(718) 327-2440",
-      "street_name": "896 CENTRAL AVENUE (FAR ROCKAWAY)",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11691",
+      "name": "FIRST PRESBYTERIAN RUSSELL SAGE MEMORIAL CHURCH",
+      "address": [
+        {
+          "street": "896 CENTRAL AVENUE (FAR ROCKAWAY)",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11691"
+        }
+      ],
       "days": "SAT",
       "hours": "9:30-10:30AM"
     },
     {
       "id": 80904,
-      "program_name": "FIRST UNITED METHODIST CHURCH OF JAMAICA",
-      "phone_number": "(718) 739-2269",
-      "street_name": "162-10 HIGHLAND AVENUE",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11432",
+      "name": "FIRST UNITED METHODIST CHURCH OF JAMAICA",
+      "address": [
+        {
+          "street": "162-10 HIGHLAND AVENUE",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11432"
+        }
+      ],
       "days": "MON",
       "hours": "8:30-9:30AM"
     },
     {
       "id": 87233,
-      "program_name": "FOREST HILLS SENIORS CENTER",
-      "phone_number": "718-699-1010",
-      "street_name": "108-25 62ND DRIVE",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11375",
+      "name": "FOREST HILLS SENIORS CENTER",
+      "address": [
+        {
+          "street": "108-25 62ND DRIVE",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11375"
+        }
+      ],
       "days": "THUR(2,3,4,5)/W (LA",
       "hours": "8:30-9:30AM/6-8PM"
     },
     {
       "id": 85275,
-      "program_name": "GENESIS TRANSITIONAL HOUSING MINISTRIES, INC",
-      "phone_number": "718-217-6530",
-      "street_name": "195-12 HOLLIS AVENUE",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11412",
+      "name": "GENESIS TRANSITIONAL HOUSING MINISTRIES, INC",
+      "address": [
+        {
+          "street": "195-12 HOLLIS AVENUE",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11412"
+        }
+      ],
       "days": "FRI",
       "hours": "9AM-12PM"
     },
     {
       "id": 84471,
-      "program_name": "GOSPEL ASSEMBLY - QUEENS",
-      "phone_number": "718-454-0192",
-      "street_name": "109-14 FARMERS BLVD",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11412",
+      "name": "GOSPEL ASSEMBLY - QUEENS",
+      "address": [
+        {
+          "street": "109-14 FARMERS BLVD",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11412"
+        }
+      ],
       "days": "SAT",
       "hours": "10AM -12PM"
     },
     {
       "id": 80917,
-      "program_name": "HOLLIS AVENUE CONGREGATIONAL CHURCH",
-      "phone_number": "(718) 468-1498",
-      "street_name": "211-04 HOLLIS AVE., QUEENS VILLAGE",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11429",
+      "name": "HOLLIS AVENUE CONGREGATIONAL CHURCH",
+      "address": [
+        {
+          "street": "211-04 HOLLIS AVE., QUEENS VILLAGE",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11429"
+        }
+      ],
       "days": "TUE",
       "hours": "11AM-1PM"
     },
     {
       "id": 85384,
-      "program_name": "HOLLIS COMMUNITY CHRISTIAN CENTER",
-      "phone_number": "718-217-3999",
-      "street_name": "191-22 JAMAICA AVENUE",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11423",
+      "name": "HOLLIS COMMUNITY CHRISTIAN CENTER",
+      "address": [
+        {
+          "street": "191-22 JAMAICA AVENUE",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11423"
+        }
+      ],
       "days": "SAT",
       "hours": "10AM-12PM"
     },
     {
       "id": 84768,
-      "program_name": "HOLY GHOST UPPER ROOM FILLING STATION MINISTRY, INC",
-      "phone_number": "(718) 529-2060",
-      "street_name": "146-17 133RD AVENUE",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11436",
+      "name": "HOLY GHOST UPPER ROOM FILLING STATION MINISTRY, INC",
+      "address": [
+        {
+          "street": "146-17 133RD AVENUE",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11436"
+        }
+      ],
       "days": "SAT",
       "hours": "10-11AM"
     },
     {
       "id": 82077,
-      "program_name": "HOLY TEMPLE CHURCH, INC",
-      "phone_number": " 347-686-0501",
-      "street_name": "136-25 SPRINGFIELD BLVD",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11413",
+      "name": "HOLY TEMPLE CHURCH, INC",
+      "address": [
+        {
+          "street": "136-25 SPRINGFIELD BLVD",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11413"
+        }
+      ],
       "days": "SAT",
       "hours": "11AM-12PM"
     },
     {
       "id": 84960,
-      "program_name": "HOUR CHILDREN COMMUNITY OUTREACH",
-      "phone_number": "718-433-4727",
-      "street_name": "36-49 11TH STREET (LIC)",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11106",
+      "name": "HOUR CHILDREN COMMUNITY OUTREACH",
+      "address": [
+        {
+          "street": "36-49 11TH STREET (LIC)",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11106"
+        }
+      ],
       "days": "MON/TUE/THUR",
       "hours": "2-4PM/10:3A-12:3P/3-5P"
     },
     {
       "id": 85457,
-      "program_name": "ICNA FLUSHING FOOD PANTRY",
-      "phone_number": "929-329-7986",
-      "street_name": "140-32 CHERRY AVENUE",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11355",
+      "name": "ICNA FLUSHING FOOD PANTRY",
+      "address": [
+        {
+          "street": "140-32 CHERRY AVENUE",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11355"
+        }
+      ],
       "days": "WED",
       "hours": "12-2PM"
     },
     {
       "id": 84174,
-      "program_name": "IGLESIA ALIANZA MISIONERA EBENEZER",
-      "phone_number": "(718) 729-1944",
-      "street_name": "43-02 38TH STREET (L.I.C.)",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11101",
+      "name": "IGLESIA ALIANZA MISIONERA EBENEZER",
+      "address": [
+        {
+          "street": "43-02 38TH STREET (L.I.C.)",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11101"
+        }
+      ],
       "days": "SAT",
       "hours": "8AM-1PM"
     },
     {
       "id": 82743,
-      "program_name": "J.U.S.T.I.C.E. ORGANIZATION/JESUS IS JUSTICE MISSION INC.",
-      "phone_number": "718-772-7951",
-      "street_name": "223 BEACH 28TH STREET (FAR ROCKAWAY)",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11691",
+      "name": "J.U.S.T.I.C.E. ORGANIZATION/JESUS IS JUSTICE MISSION INC.",
+      "address": [
+        {
+          "street": "223 BEACH 28TH STREET (FAR ROCKAWAY)",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11691"
+        }
+      ],
       "days": "WED",
       "hours": "12-2PM"
     },
     {
       "id": 85122,
-      "program_name": "JAMAICA HISPANIC SDA CHURCH",
-      "phone_number": "718-736-5291",
-      "street_name": "88-28 161 STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11432",
+      "name": "JAMAICA HISPANIC SDA CHURCH",
+      "address": [
+        {
+          "street": "88-28 161 STREET",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11432"
+        }
+      ],
       "days": "SUN",
       "hours": "8-9AM"
     },
     {
       "id": 83296,
-      "program_name": "JAMAICA SEVENTH DAY ADVENTIST CHURCH",
-      "phone_number": "718) 658-9784",
-      "street_name": "88-28 163 STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11432",
+      "name": "JAMAICA SEVENTH DAY ADVENTIST CHURCH",
+      "address": [
+        {
+          "street": "88-28 163 STREET",
+          "city": "QUEENS",
+          "state": "NEW YORK",
+          "zipCode": "11432"
+        }
+      ],
       "days": "SUN",
       "hours": "9:30-11:30AM"
-    },
-    {
-      "id": 85323,
-      "program_name": "JESUS IS THE ANSWER - J.I.T.A. COMMUNITY OUTREACH",
-      "phone_number": "718-908-6303",
-      "street_name": "103-02 171ST STREET",
-      "city": "QUEENS",
-      "state": "NEW YORK",
-      "zip_code": "11433",
-      "days": "TUE, SAT",
-      "hours": "3-5PM"
     }
   ]
 }

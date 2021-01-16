@@ -1,10 +1,12 @@
- import React from "react";
-// import SearchBar from "./SearchBar.js";
+import React from "react";
+// import { MapViewProvider } from "./map/MapViewProvider"
 
 export default (props) => {
   return (
     <>
+    {/* <MapViewProvider> */}
       {props.children}
+    {/* </MapViewProvider> */}
     </>
   );
 };

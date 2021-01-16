@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import L from "leaflet";
 import "../../App.css";
+import axios from "axios";
+import data from "./api/EFAP.json";
+import Geocode from "react-geocode";
 import leafRed from "./leaf-red.png";
 import {
   MapContainer as LeafMap,
@@ -8,7 +11,8 @@ import {
   Marker,
   Popup,
 } from "react-leaflet";
-import eafp_locations from "./api/EFAP.json"
+import GoogleMapReact from 'google-map-react';
+
 
 class LeafletMap extends Component {
   state = {
@@ -16,6 +20,9 @@ class LeafletMap extends Component {
       lat: 40.713,
       lng: -73.9,
     },
+    data: data.locations.map((e) => {
+      return e.address
+    }),
     zoom: 13,
   };
   redIcon = L.icon({
@@ -27,33 +34,12 @@ class LeafletMap extends Component {
     popupAnchor: [-3, -86],
   });
 
-  geocode = fetch("./api/EFAP.json")
-    .then((response) => response.json())
-    .then((responseData) => {
-      console.log(responseData.data);
-      const stations = responseData.data.stations;
-
-      const layerGroup = L.featureGroup().addTo(map);
-
-      stations.forEach(
-        ({ lat, lon, name, city, state, zip_code, hours, days }) => {
-          const address = city + state + zip_code;
-          const operation = hours + days;
-
-          layerGroup.addLayer(
-            L.marker([lat, lon], { icon }).bindPopup(
-              `Name: ${name}, Address: ${address}, Operation Hours:${operation}`
-            )
-          );
-        }
-      );
-
-      map.fitBounds(layerGroup.getBounds());
-    });
-
   render() {
-    const location = [this.geocode.address];
+    var listItem = [this.state.data].join(" ");
+    console.log(listItem);
+
     const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng];
+
     return (
       <div className="map">
         <LeafMap
