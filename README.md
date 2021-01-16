@@ -15,7 +15,7 @@ Mollie Goforth
 ## Designer
 Tracey Joelle Cox
 
-## Assistant Product Managers 
+## Product Managers 
 Jane Robinson
 Christopher Jeffries
 
