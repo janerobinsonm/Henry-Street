@@ -1,36 +1,12 @@
-/* eslint-disable import/no-anonymous-default-export */
-import React from "react"
-import { Link } from "react-router-dom"
+// import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
+// import 'react-pro-sidebar/dist/css/styles.css';
 
-export default (props) => {
-    return (
-        <ul className="navbar">
-           
-                <Link className="navbar__link" to="/">
-                </Link>
-                
-            <li className="navbar__item">
-                <Link className="navbar__link" to="/">Shopping List</Link>
-            </li>
-            <li className="navbar__item">
-                <Link className="navbar__link" to="/">EFAP Centers</Link>
-            </li>
-
-
-{
-    localStorage.getItem("goodNFull_user")
-        ? <li className="navbar__item">
-            <Link className="navbar__link"
-                to=""
-                onClick={e => {
-                    e.preventDefault()
-                    localStorage.removeItem("goodNFull_user")
-                    props.history.push("/")
-                }}
-            >Logout</Link>
-        </li>
-        : ""
-}
-        </ul>
-    )
-}
+// <ProSidebar>
+//   <Menu iconShape="square">
+//     <MenuItem icon={<FaGem />}>Dashboard</MenuItem>
+//     <SubMenu title="Components" icon={<FaHeart />}>
+//       <MenuItem>Component 1</MenuItem>
+//       <MenuItem>Component 2</MenuItem>
+//     </SubMenu>
+//   </Menu>
+// </ProSidebar>;
